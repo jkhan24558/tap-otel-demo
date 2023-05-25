@@ -1,7 +1,7 @@
 accelerator:
   displayName: TAP OTEL Demo
   description: Includes Distributed Tracing
-  iconUrl: https://github.com/jkhan24558/tap-otel-demo/blob/main/app-components.png
+  iconUrl: https://images.freecreatives.com/wp-content/uploads/2015/05/smiley-559124_640.jpg
   tags:
-    - TAP OTEL
+    - otel
     - getting-started
