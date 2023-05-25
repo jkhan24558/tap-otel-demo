@@ -3,5 +3,5 @@ accelerator:
   description: Includes Distributed Tracing
   iconUrl: https://github.com/jkhan24558/tap-otel-demo/blob/main/app-components.png
   tags:
-  - TAP OTEL
-  - getting-started
+    - TAP OTEL
+    - getting-started
