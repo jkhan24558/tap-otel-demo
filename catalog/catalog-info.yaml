@@ -12,7 +12,7 @@ metadata:
   annotations:
     backstage.io/kubernetes-label-selector: app.kubernetes.io/part-of=tap-otel-demo
   links:
-  - url: https://longboard.wavefront.com/dashboards/integration-kubernetes-clusters
+  - url: https://demo.wavefront.com/tracing/search?sortBy=MOST_RECENT&traceID=b2c961c4-c50e-b3e5-8a59-592799d5f56d#_v01(fs:!n,g:(c:(d:7200,s:1684856698,w:'2h'),d:7200,s:1684856598,w:'2h'),tf:!((filterType:Operation,id:0,required:!t,value:!(!(tap-otel-demo.,tap-otel-shop.,'*')))))
     title: Dashboard Aria for Apps
     icon: dashboard
 spec:
