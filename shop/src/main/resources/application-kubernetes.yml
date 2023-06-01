@@ -1,7 +1,7 @@
 app:
   services:
-    orders: http://tap-otel-orders:8080
-    items: http://tap-otel-items:8080
+    orders: https://tap-otel-orders.dev-ns.tap.jkcloudmesh.com
+    items: https://tap-otel-items.dev-ns.tap.jkcloudmesh.com
 
 server:
   port: ${PORT:8080}
@@ -10,4 +10,4 @@ management:
   metrics:
     export:
       wavefront:
-        uri: http://wavefront-proxy.wavefront.svc.cluster.local:2878
+        uri: proxy://wavefront-proxy.wavefront.svc.cluster.local:2878
