@@ -10,7 +10,8 @@ collector:
   hostOSMetrics: true
 proxy:
   zipkinPort: 9411
-  args: --buffer /wavefront-buffer/buffer
+  tracePort: 30001
+  args: --buffer /wavefront-buffer/buffer --customTracingListenerPorts 30001 --customMessageTags log --pushListenerPorts 2878 
   updateStrategy:
     type: Recreate
   resources:

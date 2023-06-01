@@ -1,7 +1,7 @@
 app:
   services:
-    orders: https://tap-otel-orders.dev-ns.tap.jkcloudmesh.com
-    items: https://tap-otel-items.dev-ns.tap.jkcloudmesh.com
+    orders: http://tap-otel-orders.dev-ns.tap.jkcloudmesh.com
+    items: http://tap-otel-items.dev-ns.tap.jkcloudmesh.com
 
 server:
   port: ${PORT:8080}

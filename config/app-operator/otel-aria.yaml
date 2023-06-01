@@ -34,7 +34,7 @@ spec:
         logLevel: info
       tanzuobservability:
         traces:
-          endpoint: http://wavefront-proxy.wavefront.svc.cluster.local:2878
+          endpoint: http://wavefront-proxy.wavefront.svc.cluster.local:30001
         metrics:
           endpoint: http://wavefront-proxy.wavefront.svc.cluster.local:2878
 
