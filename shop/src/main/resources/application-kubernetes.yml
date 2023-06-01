@@ -7,9 +7,7 @@ server:
   port: ${PORT:8080}
 
 management:
-  tracing:
-    enabled: true
-  otlp:
-    metrics:
-      export:
-        enabled: true
+  metrics:
+    export:
+      wavefront:
+        uri: http://wavefront-proxy.wavefront.svc.cluster.local:2878
